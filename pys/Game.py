@@ -2,9 +2,6 @@ from pico2d import *
 import game_framework
 import math
 import random
-
-from Game import isRightClicked
-
 mx, my = 0, 0
 ui, hero = None, None
 camX = 0
