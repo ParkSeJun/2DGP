@@ -3,6 +3,8 @@ import game_framework
 import math
 import random
 
+from Game import isRightClicked
+
 mx, my = 0, 0
 ui, hero = None, None
 camX = 0
@@ -144,6 +146,14 @@ def handle_events():
         elif event.type == SDL_MOUSEBUTTONUP:
             print(event.button)
             if event.button == 3:
+                isRightClicked = False
+        elif event.type == SDL_KEYDOWN:
+            if event.key == SDLK_SPACE:
+                isClicked = True
+            elif event.key == SDLK_RETURN:
+                isRightClicked = True
+        elif event.type == SDL_KEYUP:
+            if event.key == SDLK_RETURN:
                 isRightClicked = False
 
 def update():
