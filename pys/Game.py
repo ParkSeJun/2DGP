@@ -26,7 +26,7 @@ class UI:
 
 
     def draw(self):
-        global mx, my
+        global mx, my, hero
         self.BGImages[self.nowBGIdx].draw(400, 300, 799, 599)
         for j in range(math.floor(800/20 + 1)):
             self.pattern_image.draw(j*20 + 10 - camX % 20, 300)
@@ -36,6 +36,11 @@ class UI:
         self.status_inner_image.draw(395, 130)
         self.black_image.draw(335, 178, 200, 25)
         self.black_image.draw(335, 130, 200, 25)
+        if hero.direction == "RIGHT":
+            hero.image.clip_draw(math.floor(hero.animFrame / 3) * 36, 38, 36, 36, 145, 160, 120, 120)
+        else:
+            hero.image.clip_draw(math.floor(hero.animFrame / 3) * 36, 1, 36, 36, 145, 160, 120, 120)
+
 
 pass
 
