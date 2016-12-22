@@ -1,0 +1,162 @@
+{
+"PIXEL_PER_METER" : 60.0,
+
+"enemyCount" : 50,
+"groundY" : 275,
+"groundH" : 200,
+"maxCamX" : 5400.0,
+
+"UI" : {
+
+"fontSize" : 30,
+"numFontSize" : 25,
+
+"HPX" : 236,
+"HPY" : 190,
+"HPValueX" : 305,
+"HPValueY" : 177,
+
+"EXPX" : 236,
+"EXPY" : 140,
+"EXPValueX" : 305,
+"EXPValueY" : 127,
+
+"mapObjectOffsetX" : 85,
+"mapObjectW" : 10,
+"mapObjectH" : 10,
+
+"mapBoxX" : 135,
+"mapBoxY" : 55,
+"mapBoxW" : 104,
+"mapBoxH" : 45,
+
+"BGX" : 400, 
+"BGY" : 300, 
+"BGW" : 799, 
+"BGH" : 599,
+
+"patternOffsetX" : 10,
+"patternW" : 20,
+"patternY" : 300,
+
+"groundImageX" : 400,
+"groundImageY" : 280,
+"groundImageW" : 800,
+"groundImageH" : 30,
+
+"menuImageX" : 75,
+"menuImageY" : 555,
+"menuImageW" : 100,
+"menuImageH" : 50,
+
+"statusImageX" : 400,
+"statusImageY" : 130,
+"statusImageW" : 800,
+"statusImageH" : 256,
+
+"statusInnerImageX" : 395,
+"statusInnerImageY" : 130,
+
+"HPBarImageX" : 335,
+"HPBarImageY" : 178,
+"HPBarImageW" : 200,
+"HPBarImageH" : 25,
+
+"EXPBarImageX" : 335,
+"EXPBarImageY" : 130,
+"EXPBarImageW" : 200,
+"EXPBarImageH" : 25,
+
+"blackMapBarImageX" : 400,
+"blackMapBarImageY" : 55,
+"blackMapBarImageW" : 640,
+"blackMapBarImageH" : 50,
+
+"heroImageX" : 145,
+"heroImageY" : 160,
+"heroImageW" : 120,
+"heroImageH" : 120
+},
+
+"Hero" : {
+"RUN_SPEED_KMPH" : 1.5,
+
+"RUN_TIME_PER_ACTION" : 1.0,
+"RUN_FRAMES_PER_ACTION" : 6,
+
+"ATTACK_DELAY" : 0.5,
+"ATTACK_DURATION" : 0.2,
+
+"x" : 75,
+"y" : 305,
+"direction" : "RIGHT",
+"state" : "RUN",
+
+"fullHP" : 100,
+"HP" : 50,
+"fullEXP" : 100,
+"EXP" : 75,
+
+"moveSpeedRight" : 300,
+"moveSpeedLeft" : -120,
+
+"camLastLimitMin" : 150,
+"camLastLimitMax" : 950,
+
+"camSpeed" : 90,
+"camLimitMax" : 270,
+"camLimitMin" : 50,
+"camLimitSpeedRate" : 2.5,
+
+"imageWGap" : 36,
+"imageRightStartY" : 38,
+"imageLeftStartY" : 1,
+"imageW" : 36,
+"imageH" : 36,
+"w" : 60,
+"h" : 60,
+
+"attackW" : 180,
+"attackH" : 180,
+"attackOffsetX" : 50,
+"attackOffsetY" : 15
+},
+
+"Enemy" : {
+"RUN_SPEED_KMPH" : 0.75,
+"RUN_TIME_PER_ACTION" : 0.5,
+"RUN_FRAMES_PER_ACTION" : 2,
+
+"xRandMin" : 800,
+"y" : 335,
+"w" : 55,
+"h" : 58,
+"direction" : "LEFT",
+"state" : "RUNNING",
+"dyingJumpPower" : 300.0,
+"dyingOpacify" : 0.5,
+"dyingjumpPowerWeight" : 2000.0,
+"dyingLimit" : 200.0,
+
+"imageWGap" : 40,
+"imageLeftStartingY" : 37,
+"imageRightStartingY" : 0,
+"imageW" : 40,
+"imageH" : 37
+} 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
